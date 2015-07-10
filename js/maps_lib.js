@@ -336,7 +336,7 @@ self.getList(whereClause);
               <br />\
               " + data[row][3] + "\
 <br />\
-<a href='" + data[row][2] + " target="_blank"'>\
+<a href='" + data[row][2] + "'>\
                 <span>" + data[row][2] + "\</span>\
             </a>\
             <br />\
