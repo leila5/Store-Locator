@@ -336,7 +336,7 @@ self.getList(whereClause);
               <br />\
               " + data[row][3] + "\
 <br />\
-<a href='" + data[row][2] + "'>\
+<a href='" + data[row][2] + "onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;"'>\This link will open in new window/tab
                 <span>" + data[row][2] + "\</span>\
             </a>\
             <br />\
